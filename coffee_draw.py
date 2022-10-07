@@ -15,7 +15,7 @@ WHITE_COFFEES = ALL_COFFEES[5:]
 root = tk.Tk()
 root.geometry('1024x768')
 
-vars = [tk.IntVar() for _ in range(8)]
+vars = [tk.IntVar() for _ in range(len(ALL_COFFEES))]
 
 def draw():
     cafelist = []
